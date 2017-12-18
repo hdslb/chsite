@@ -1,0 +1,266 @@
+/* Global CSS */
+
+body,
+html {
+    overflow-x: hidden!important
+}
+
+/* Home CSS */
+#home-header {
+    background: #002B5E;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#home-main {
+    background: url(../assets/img/maps.svg) no-repeat 0 50%;
+    z-index: 1;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    height: 90vh;
+}
+
+.home-relay-height {
+    height: 50vh;
+}
+
+@media (min-width: 1024px) {
+    .home-relay-height {
+        height: 80vh;
+    }
+}
+
+.home-adv-relay-height {
+    height: 60vh;
+}
+
+@media (min-width: 1024px) {
+    .home-adv-relay-height {
+        height: 80vh;
+    }
+}
+
+/* adv style */
+
+.adv-card-height {
+    height: 60vh;
+}
+
+.adv-card-icon {
+    height: 128px;
+    width: 128px;
+}
+
+/* Download CSS */
+
+.dl-header {
+    background: #0288D1;
+    background: linear-gradient(to bottom,#0288D1,#283593);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+.dl-button-border {
+    border: 1px solid #dddddd;
+}
+
+.dl-card-height-1 {
+    height: 55vh;
+}
+
+@media (min-width: 600px) {
+    .dl-card-height-1 {
+        height: 40vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    .dl-card-height-1 {
+        height: 55vh;
+    }
+}
+
+.dl-card-height-2 {
+    height: 40vh;
+}
+
+@media (min-width: 600px) {
+    .dl-card-height-2 {
+        height: 35vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    .dl-card-height-2 {
+        height: 45vh;
+    }
+}
+
+/* Relay CSS */
+
+.rl-header {
+    background: #616161;
+    background: linear-gradient(to top,#212121,#616161);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.rl-divider {
+    background: #212121;
+    background: linear-gradient(to top,#313131,#212121);
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+}
+
+.relay-partner-card {
+    height: 120px;
+    width: 100%;
+}
+
+.rl-partner-logo {
+    height: auto!important;
+    width: 70px!important;
+}
+
+@media (min-width: 800px) {
+    .rl-partner-logo {
+        height: auto!important;
+        width: 140px!important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .rl-partner-logo {
+        height: auto!important;
+        width: 120px!important;
+    }
+}
+
+.relay-partner-card-width {
+    width: 100%;
+}
+
+.relay-digital-earth {
+    width: 70%;
+}
+
+@media (min-width: 600px) {
+    .relay-digital-earth {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .relay-digital-earth {
+        width: 100%;
+    }
+}
+
+/* Price CSS */
+
+.price-header {
+    background: #283593;
+    background: linear-gradient(to top,#7986CB,#283593);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+.price-header-2 {
+    background: #5C6BC0;
+    background: linear-gradient(to top,F,#5C6BC0);
+    background-size: cover;
+    background-position: top;
+    height: 40vh;
+}
+
+.price-card-height {
+    height: 60vh;
+}
+
+@media (min-width: 600px) {
+    .price-card-height {
+        height: 50vh;
+    }
+}
+
+/* ToS CSS */
+#tos-header {
+    height: 50vh;
+}
+
+/* Footer CSS */
+
+footer {
+    padding: 16px 0;
+    background-color: #303030;
+    color: #9e9e9e;
+}
+
+footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #bbbbbb;
+}
+
+.footer-nav h4 {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .04em;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+.footer-nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-nav ul li {
+    margin: 0 0 10px 0;
+}
+
+.footer-donate-btn {
+    margin-top: 24px;
+}
+
+.footer-divider {
+    margin: 16px 0;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 12px;
+}
+
+@media (min-width: 600px) {
+    footer {
+        padding: 24px 0;
+    }
+    .footer-divider {
+        margin: 24px 0;
+    }
+    .footer-copyright {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1024px) {
+    footer {
+        padding: 32px 0;
+    }
+    .footer-divider {
+        margin: 32px 0;
+    }
+}
