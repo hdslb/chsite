@@ -34,12 +34,12 @@ html {
 }
 
 .home-adv-relay-height {
-    height: 60vh;
+    height: 70vh;
 }
 
 @media (min-width: 1024px) {
     .home-adv-relay-height {
-        height: 80vh;
+        height: 90vh;
     }
 }
 
