@@ -65,7 +65,7 @@ html {
 }
 
 .dl-button-border {
-    border: 1px solid #dddddd;
+    border: 1px solid #BDBDBD;
 }
 
 .dl-card-height-1 {
@@ -85,12 +85,12 @@ html {
 }
 
 .dl-card-height-2 {
-    height: 40vh;
+    height: 45vh;
 }
 
 @media (min-width: 600px) {
     .dl-card-height-2 {
-        height: 35vh;
+        height: 40vh;
     }
 }
 
