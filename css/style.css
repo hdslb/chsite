@@ -110,12 +110,20 @@ html {
     height: 100vh;
 }
 
-.rl-divider {
+.rl-node-list {
     background: #212121;
-    background: linear-gradient(to top,#313131,#212121);
+    background: linear-gradient(to top,#616161,#212121);
     background-size: cover;
     background-position: center;
-    height: 20vh;
+    height: 80vh;
+}
+
+.rl-divider-1 {
+    background: #757575;
+    background: linear-gradient(to top,#757575,#616161);
+    background-size: cover;
+    background-position: center;
+    height: 10vh;
 }
 
 .relay-partner-card {
@@ -172,14 +180,6 @@ html {
     height: 60vh;
 }
 
-.price-header-2 {
-    background: #5C6BC0;
-    background: linear-gradient(to top,F,#5C6BC0);
-    background-size: cover;
-    background-position: top;
-    height: 40vh;
-}
-
 .price-card-height {
     height: 60vh;
 }
@@ -187,6 +187,16 @@ html {
 /* ToS CSS */
 #tos-header {
     height: 50vh;
+}
+
+/* Partner CSS */
+
+.partner-header {
+    background: #EF5350;
+    background: linear-gradient(to top,#EF9A9A,#EF5350);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
 }
 
 /* Footer CSS */
