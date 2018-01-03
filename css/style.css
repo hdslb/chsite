@@ -20,27 +20,13 @@ html {
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
-    height: 90vh;
+    max-width: 100%;
+    height: 80vh;
 }
 
-.home-relay-height {
-    height: 50vh;
-}
-
-@media (min-width: 1024px) {
-    .home-relay-height {
-        height: 80vh;
-    }
-}
-
-.home-adv-relay-height {
-    height: 70vh;
-}
-
-@media (min-width: 1024px) {
-    .home-adv-relay-height {
-        height: 90vh;
-    }
+.home-padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 /* adv style */
@@ -61,7 +47,8 @@ html {
     background: linear-gradient(to bottom,#0288D1,#283593);
     background-size: cover;
     background-position: center;
-    height: 60vh;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .dl-button-border {
@@ -69,35 +56,11 @@ html {
 }
 
 .dl-card-height-1 {
-    height: 55vh;
-}
-
-@media (min-width: 600px) {
-    .dl-card-height-1 {
-        height: 40vh;
-    }
-}
-
-@media (min-width: 1024px) {
-    .dl-card-height-1 {
-        height: 55vh;
-    }
+    min-height: 350px;
 }
 
 .dl-card-height-2 {
-    height: 45vh;
-}
-
-@media (min-width: 600px) {
-    .dl-card-height-2 {
-        height: 40vh;
-    }
-}
-
-@media (min-width: 1024px) {
-    .dl-card-height-2 {
-        height: 45vh;
-    }
+    min-height: 280px;
 }
 
 /* Relay CSS */
@@ -107,7 +70,13 @@ html {
     background: linear-gradient(to top,#212121,#616161);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.rl-padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .rl-node-list {
@@ -115,7 +84,8 @@ html {
     background: linear-gradient(to top,#616161,#212121);
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    padding-top: 80px;
+    padding-bottom: 30px;
 }
 
 .rl-divider-1 {
@@ -123,7 +93,7 @@ html {
     background: linear-gradient(to top,#757575,#616161);
     background-size: cover;
     background-position: center;
-    height: 10vh;
+    height: 60px;
 }
 
 .relay-partner-card {
@@ -177,16 +147,18 @@ html {
     background: linear-gradient(to top,#7986CB,#283593);
     background-size: cover;
     background-position: center;
-    height: 60vh;
+    padding-top: 140px;
+    padding-bottom: 140px;
 }
 
 .price-card-height {
-    height: 60vh;
+    height: 360px;
 }
 
 /* ToS CSS */
 #tos-header {
-    height: 50vh;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 /* Partner CSS */
@@ -196,7 +168,8 @@ html {
     background: linear-gradient(to top,#EF9A9A,#EF5350);
     background-size: cover;
     background-position: center;
-    height: 60vh;
+    padding-top: 140px;
+    padding-bottom: 140px;
 }
 
 /* Footer CSS */
